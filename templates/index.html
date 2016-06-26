@@ -1,0 +1,15 @@
+{% extends "templates/base.html" %}
+{% block title %} User page {% endblock %}
+
+{% block content %}
+  <div class="wrapper">
+		<div class="logo">
+			<img src="/static/new_obsidian_logo.png" 
+					 class="arrowhead" />
+		</div>
+		<div class="ragnarok">
+			{% include 'ragnarok.html' %}
+			also some more words 
+		</div>
+	</div>
+{% endblock %}
