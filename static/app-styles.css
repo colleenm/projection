@@ -1,0 +1,47 @@
+body {
+  background-color: #000;
+	color: #EEE;
+  font-family: Open Sans, Helvetica, Arial;
+  font-size: 13px;
+	font-weight: 200;
+	letter-spacing: .1em;
+}
+
+a {
+  color: #204d90;
+	text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+	height: 100%;
+  justify-content: space-around;
+}
+
+.wrapper {
+  text-align: center
+}
+
+.ragnarok {
+  margin: auto;
+  text-align: left;
+  width: 276px;
+}
+
+.ragnarok-attribution {
+  font-style: italic;
+	text-align: right;
+}
+
+.arrowhead {
+  margin-bottom: 16px;
+  margin-left: -12px;
+  width: 300px;
+}
+
