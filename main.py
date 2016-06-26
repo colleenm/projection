@@ -30,7 +30,7 @@ class MainPage(webapp2.RequestHandler):
             'content': 'hello world',
         }
 
-        template = JINJA_ENVIRONMENT.get_template('index.html')
+        template = JINJA_ENVIRONMENT.get_template('templates/index.html')
         self.response.write(template.render(template_values))
 
 
